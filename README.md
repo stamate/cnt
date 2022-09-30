@@ -9,4 +9,4 @@ You can also specify a image base image by passing `--build-arg BASE=`:
 After the image is built, go to your project's folder and run `bash <(curl -L https://l.stm.ai/rund)`
 This will run the image named `nblab` and install all the specified packages in `requirements.txt` from your current work folder.
 It will also make availabe everything from your current folder inside the container.
-You can access the notebook instance in a browser at [http://0.0.0.0:8888](http://0.0.0.0:8888) or a different port if you changed it.
+You can access the notebook instance in a browser at [http://0.0.0.0:8899](http://0.0.0.0:8899) or a different port if you changed it.
