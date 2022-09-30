@@ -1,0 +1,1 @@
+docker build -t nblab --build-args base=nvidia/cuda:11.7.1-cudnn8-devel-ubuntu20.04 https://l.stm.ai/build
