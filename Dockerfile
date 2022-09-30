@@ -1,6 +1,5 @@
 # syntax = docker/dockerfile:latest
 ARG BASE=ubuntu:22.04
-ARG PORT=8888
 
 # FROM ubuntu:22.04
 FROM ${BASE}
@@ -31,7 +30,7 @@ c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.open_browser = False
 c.NotebookApp.password = u'sha1:b4e4e0deb244:a8b99d99395ec48ea1d22e0ed3f2773d268cf5c0'
 c.ContentsManager.allow_hidden = True
-c.NotebookApp.port = ${PORT}
+c.NotebookApp.port = 8899
 c.NotebookApp.notebook_dir = "./"
 c.NotebookApp.open_browser = False
 c.NotebookApp.allow_root = True
